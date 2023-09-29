@@ -1,9 +1,20 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Welcome to my portfolio</title>
+        <link href="{% static 'resume/design.css' %}" rel="stylesheet">
     </head>
     <body>
-        <h1>This my Resume</h1>
+        <div class="container">
+            <div>Mahendrakumar R</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </body>
 </html>

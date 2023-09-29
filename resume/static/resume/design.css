@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    top: 0px;
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    
+}
+
+div div{
+    position: relative;
+    font-size: 30px;
+    padding: 15px;
+    animation: name 4s infinite;
+    
+}
+
+@keyframes name {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: rgb(8, 187, 178);}
+    100% {color: green;}
+    }
+
+nav {
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 7); /* Define link color */
+}
+nav a:hover {
+    text-decoration: none;
+    color: lightgray; 
+    
+}
