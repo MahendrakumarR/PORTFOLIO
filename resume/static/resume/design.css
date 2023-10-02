@@ -75,9 +75,9 @@ nav a:hover {
 }
 
 .two{
-    position: relative;
+    position: absolute;
     margin-top: 500px;
-    margin-left: 80000px;
+    margin-left: 300px;
     padding: 10px;  
     
 }
