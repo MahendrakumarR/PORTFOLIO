@@ -7,7 +7,8 @@
     background-color: blue;
     position: fixed;
     width: 100%;
-    height: 30px;
+    height: 70px;
+    left: 0px;
     
 }
 
@@ -30,7 +31,7 @@ nav {
     top: 0px;
     right: 0px;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     font-size: 20px;
 
 }
@@ -56,4 +57,27 @@ nav a:hover {
     color: lightgray; 
     
 }
+.first{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    background-color: blueviolet;
+    left: 0px;
+    top: 70px;
+    height: 625px;
+}
+.one{
+    position: relative;
+    margin-top: 500px;
+    margin-left: 700px;
+    padding: 10px;  
+    
+}
 
+.two{
+    position: relative;
+    margin-top: 500px;
+    margin-left: 80000px;
+    padding: 10px;  
+    
+}
