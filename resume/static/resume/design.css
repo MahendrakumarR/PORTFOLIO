@@ -68,6 +68,7 @@ nav a:hover {
 }
 .one{
     position: relative;
+    border-radius: 10px;
     margin-top: 500px;
     margin-left: 700px;
     padding: 10px;  
@@ -76,8 +77,19 @@ nav a:hover {
 
 .two{
     position: absolute;
+    border-radius: 10px;
     margin-top: 500px;
     margin-left: 300px;
     padding: 10px;  
     
+}
+
+.qualification{
+    position: absolute;
+    background-color: rosybrown;
+    width: 100%;
+    left: 0px;
+    top: 695px;
+    height: 625px;
+
 }
