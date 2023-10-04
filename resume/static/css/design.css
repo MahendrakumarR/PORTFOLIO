@@ -12,7 +12,7 @@
     
 }
 
-div div{
+div .name{
     position: relative;
     font-size: 30px;
     padding: 15px;
@@ -93,3 +93,48 @@ nav a:hover {
     height: 625px;
 
 }
+
+.img{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url('/static/images/msc.jpg');   /* Here (/static/images/msc.jpg) actual path for showing images */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.img1{
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    background-image: url('/static/images/bsc.jpg');   /* Here (/static/images/bsc.jpg) actual path for showing images */
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+.m{
+    position: absolute;
+    top: 200px;
+    justify-content: center;
+    left: 45px;
+    cursor: pointer;
+}
+
+.b{
+    position: absolute;
+    top: 200px;
+    justify-content: center;
+    left: 35px;
+    cursor: pointer;
+}
+
+
+
+

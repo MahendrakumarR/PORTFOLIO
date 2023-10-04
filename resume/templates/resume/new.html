@@ -3,11 +3,12 @@
 <html lang="en">
     <head>
         <title>Welcome to my portfolio</title>
-        <link href="{% static 'resume/design.css' %}" rel="stylesheet">
+        <link href="{% static 'css/design.css' %}" type="text/css" rel="stylesheet">   <!-- here static for storing css, images, javascript files-->
     </head>
     <body>
+
         <div class="container">
-            <div>Mahendrakumar R</div>
+            <div class="name">Mahendrakumar R</div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -16,13 +17,29 @@
                 </ul>
             </nav>
         </div>
+
         <div class="first">
             <button class="one">ClickMe</button>
             <button class="two">ClickMe</button>
         </div>
+
         <div class="qualification">
             <h1 class="quali">Qualification</h1>
+            
+            <a href="msc/">                       <!-- here (msc/) used for which path we given inside the urls.py from (resume(app))-->
+                <div class="img">
+                    <h1 class="m">Master</h1>
+                </div> 
+            </a>    
+
+            <a href="bsc/">                       <!-- here (bsc/) used for which path we given inside the urls.py from (resume(app))-->
+                <div class="img1">
+                    <h1 class="b">Bachelore</h1>
+                </div>
+            </a>
+            
         </div>
+        
         
     </body>
 </html>
