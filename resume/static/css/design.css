@@ -91,6 +91,7 @@ nav a:hover {
     left: 0px;
     top: 695px;
     height: 625px;
+    z-index: -1;
 
 }
 
@@ -132,6 +133,28 @@ nav a:hover {
     top: 200px;
     justify-content: center;
     left: 35px;
+    cursor: pointer;
+}
+
+.internship{
+    position: absolute;
+    background-color: rgba(10, 1, 1, 0.8);
+    width: 100%;
+    left: 0px;
+    top: 1320px;
+    height: 625px;
+    z-index: -1;        
+}
+
+.shoppeal_offer{
+    position: absolute;
+    background-image: url('/static/images/shopeal_offer.jpg');
+    top: 70px;
+    left: 0px;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
     cursor: pointer;
 }
 
