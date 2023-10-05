@@ -22,9 +22,9 @@ div .name{
 
 @keyframes name {
     0%   {color: red;}
-    25%  {color: yellow;}
-    50%  {color: rgb(8, 187, 178);}
-    100% {color: green;}
+    25%  {color: rgb(252, 252, 1);}
+    50%  {color: rgb(7, 247, 235);}
+    100% {color: rgb(248, 81, 3);}
     }
 
 nav {
@@ -65,13 +65,16 @@ nav a:hover {
     left: 0px;
     top: 70px;
     height: 625px;
+    
 }
 .one{
     position: relative;
     border-radius: 10px;
     margin-top: 500px;
     margin-left: 700px;
-    padding: 10px;  
+    padding: 10px; 
+    box-shadow: 2px 4px 1px,
+                2px 4px 1px; 
     
 }
 
@@ -80,7 +83,9 @@ nav a:hover {
     border-radius: 10px;
     margin-top: 500px;
     margin-left: 300px;
-    padding: 10px;  
+    padding: 10px;
+    box-shadow: 2px 4px 1px,
+                2px 4px 1px;  
     
 }
 
@@ -105,6 +110,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
+    box-shadow: 10px 10px 10px;
 }
 
 .img1{
@@ -117,6 +123,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
+    box-shadow: 10px 10px 10px;
 }
 
 
@@ -148,14 +155,16 @@ nav a:hover {
 
 .shoppeal_offer{
     position: absolute;
-    background-image: url('/static/images/shopeal_offer.jpg');
-    top: 70px;
-    left: 0px;
+    background-image: url('/static/images/shoppeal_offer.jpg');
+    top: 1300px;
+    left: 100px;
     width: 500px;
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
+    z-index: -1;
+    box-shadow: 10px 10px 10px;
 }
 
 
